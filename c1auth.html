@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>AUTHENTICATION</title>
+<h1><center>Welcome</center></h1><br>
+<body bgcolor="#99ff89">
+<font face="comic sans" size="6"><center>
+</head>
+<script type="text/javascript">
+
+function redirect()
+{var code = document.getElementById("code").value;
+        if (code == 1234) {
+    
+                location.href = "D:\hackathon ideas\dataanalysis\c1std.html";
+            
+        }
+        else {
+            document.write("The code is wrong, try again!");
+           }
+
+}
+</script>
+<body>
+<div class="login-page">
+<div class="form">
+<form class="login-form">
+<input type="text" placeholder="user name"/>
+<BR>
+<input type="password" id="code" size="16" placeholder="password"/>
+<input type="button" value="login" size="16" onclick="redirect()"/></form>
+</div>
+</div>
+
+
+
+</body>
+</html>
